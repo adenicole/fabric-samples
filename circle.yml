@@ -5,5 +5,9 @@ machine:
 
 dependencies:
   pre:
-    - cd fabcar && npm install --dev
+    - cd fabcar && npm install --dev && pwd
+
+test:
+  pre:
+    - pwd && make lint
 
