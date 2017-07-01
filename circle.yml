@@ -1,0 +1,9 @@
+machine:
+  node:
+    # Circle will use node 6.11.0
+    version: 6.11.0
+
+dependencies:
+  pre:
+    - cd fabcar && npm install --dev
+
