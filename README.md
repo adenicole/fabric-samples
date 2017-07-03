@@ -1,11 +1,13 @@
 ## This is a fork of the Fabric Samples
 
-The most notable changes are a node commandline tool here:
+The most notable changes are a here:
 
-[Query Cli](https://github.com/noahgift/fabric-samples/blob/master/fabcar/query-cli.js)
+* [Query Cli--Node Commandline Tool](https://github.com/noahgift/fabric-samples/blob/master/fabcar/query-cli.js)
+* [CircleCI Config](https://github.com/noahgift/fabric-samples/blob/master/circle.yml)
+* [Makefile](https://github.com/noahgift/fabric-samples/blob/master/fabcar/Makefile)
+* [ESLint File](https://github.com/noahgift/fabric-samples/blob/master/fabcar/.eslintrc.yml)
 
-
-## Hyperledger Fabric Samples
+## (Original Code Here) Hyperledger Fabric Samples
 
 Please visit the [installation instructions](http://hyperledger-fabric.readthedocs.io/en/latest/samples.html).
 
