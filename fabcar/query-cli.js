@@ -32,9 +32,10 @@ program
 /**
  * Queries Blockchain 
  * @param {string} chaincodeFunc The chaincode function to query
+ * @param {string} car The individual car to query
  * @returns {string} nothing
  */
-function queryHelper (chaincodeFunc = 'queryAllCars', car='') {
+function queryHelper (chaincodeFunc = 'queryAllCars', car = '') {
 
     Promise.resolve().then(() => {
 
@@ -98,7 +99,8 @@ function queryHelper (chaincodeFunc = 'queryAllCars', car='') {
 
         } else {
 
-            console.log(chalk.bgBlue("Query result count = ", queryResponses.length));
+            console.log(
+                chalk.bgBlue("Query result count = ", queryResponses.length));
 
         }
         if (queryResponses[0] instanceof Error) {
