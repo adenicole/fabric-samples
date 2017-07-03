@@ -1,3 +1,10 @@
+## This is a fork of the Fabric Samples
+
+The most notable changes are a node commandline tool here:
+
+[Query Cli](https://github.com/noahgift/fabric-samples/blob/master/fabcar/query-cli.js)
+
+
 ## Hyperledger Fabric Samples
 
 Please visit the [installation instructions](http://hyperledger-fabric.readthedocs.io/en/latest/samples.html).
